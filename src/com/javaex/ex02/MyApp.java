@@ -40,20 +40,14 @@ public class MyApp {
 		//원 리스트에 원 주소 추가
 		cList.add(c01);
 		cList.add(c02);
-		cList.add(c03);
+		cList.add(c03); // <-- 섞어서 넣을 수 있다/ p01로 입력해도 오류없이 출력되는 단점
 		
 		//출력
 		for(int i=0; i<cList.size(); i++) {
 			System.out.println(cList.get(i).toString());
+			//System.out.println(((Circle)cList.get(i)).getRadius());
 		}
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 	}
 
