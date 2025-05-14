@@ -9,6 +9,7 @@ public class Ex02 {
 
 		Set<Integer> lotto = new HashSet<Integer>();
 		
+		/*
 		int l01 = (int)(Math.random()*45)+1;
 		int l02 = (int)(Math.random()*45)+1;
 		int l03 = (int)(Math.random()*45)+1;
@@ -22,6 +23,12 @@ public class Ex02 {
 		lotto.add(l04);
 		lotto.add(l05);
 		lotto.add(l06);
+		*/
+		
+		while(lotto.size() < 6) {
+			int lNum = (int)(Math.random()*45)+1;
+			lotto.add(lNum);
+		}
 		
 		System.out.println(lotto.size());
 		System.out.println("---------------------");
